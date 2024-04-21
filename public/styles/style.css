@@ -1,0 +1,178 @@
+body
+{
+    border:rgb(67, 41, 22) solid 5px;
+    padding: 0px;
+    margin: 0px;
+    background-color:antiquewhite;
+}
+h1
+{
+    color:rgb(67, 41, 22);
+}
+.card-title
+{
+    color: rgb(67, 41, 22);
+}
+.divnav
+{
+    background-color: rgb(67, 41, 22);
+}
+.divnav li
+{
+    background-color:#f3bc77;
+    margin: 10px;
+}
+
+.divlogo
+{
+    background-image:url('/ArcheoIT_Images/bg.jpeg');
+    /* background-image: url('ArcheoIT_Images/bg-image.jpeg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0.9;
+
+    background-attachment:none;
+}
+.divlogo h1
+{
+    color:rgb(19, 108, 19);
+    font-weight: bold;
+}
+.divlogo h2
+{
+    color:rgb(84, 53, 11);
+    font-weight: bold;
+}
+.actu
+{
+    background-color: rgb(84, 53, 11);
+    color: #f3bc77;
+}
+h5
+{
+    background-color: #f3bc77;
+    text-align: center;
+    border-radius: 10px;
+}
+.modal
+{
+    background-color: #f3bc77;
+    color: rgb(84, 53, 11);
+
+    background-image: url('/ArcheoIT_Images/logo-png.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0.9;
+
+}
+.modal button
+{
+    background-color:  rgb(84, 53, 11);
+    color: #f3bc77;
+}
+.card-body button
+{
+    background-color:  rgb(84, 53, 11);
+    color: #f3bc77;
+}
+strong
+{
+    background-color: #f3bc77;
+    color:rgb(84, 53, 11);
+}
+p
+{
+    text-align: justify;
+    font-size: 20px;
+}
+.btnplus
+{
+    background-color:  rgb(84, 53, 11);
+    color: #f3bc77;
+}
+a
+{
+    font-style: none;
+}
+.myspan
+{
+    color:  rgb(84, 53, 11);
+   font-weight: bold;
+}
+.scrolling-text-container
+{
+   overflow: hidden;  /* cacher le debordement */
+   background-color: #f3bc77;
+   border-radius: 15px;
+}
+
+/* animation defilement,demarre a droite(100) s`arrete a gauche(-100) */
+.scrolling-text 
+{
+    animation: scrolling-text-animation 10s linear infinite;
+}
+  
+  @keyframes scrolling-text-animation {
+    0% {
+      transform: translateX(100%); 
+    }
+    100% {
+      transform: translateX(-100%); 
+    }
+  }
+
+.activites h2
+{
+    color:  rgb(84, 53, 11);
+}
+.gy-5 div div
+{
+    background-color: rgb(84, 53, 11);
+    color: #f3bc77;
+
+}
+.stage ul
+{
+    background-color: rgb(84, 53, 11);
+    color: #f3bc77;
+  
+}
+.btnsubmit
+{
+ background-color: rgb(67, 41, 22); 
+ color :#f3bc77;
+}
+form option
+{
+    background-color: rgb(67, 41, 22); 
+    color :#f3bc77;
+}
+form option:checked
+{
+    color: rgb(67, 41, 22); 
+    background-color :#f3bc77;
+}
+form option:hover
+{
+    color: rgb(67, 41, 22); 
+    background-color :#f3bc77;
+}
+thead
+{
+    color: rgb(67, 41, 22); 
+    background-color :#f3bc77;
+}
+h6
+{
+    font-weight: bold;
+}
+.divAdmin a
+{
+    text-decoration: none;
+    color: bisque;
+
+}
+
+#map { height: 400px; }
